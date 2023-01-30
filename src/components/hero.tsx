@@ -1,6 +1,7 @@
 import React from 'react'
 import BackgroundCircles from './backgroundCircles'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 type Props = {}
@@ -16,9 +17,9 @@ export default function Hero({}: Props) {
     delaySpeed: 2000
   })
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden mt-4'>
       <BackgroundCircles />
-      <img
+      <motion.img
         className='relative rounded-full h-32 w-32'
         src='https://avatars.githubusercontent.com/u/77216006?v=4'
         alt='Profile Pic'

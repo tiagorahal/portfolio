@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
+import About from '@/components/about'
 import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,9 +15,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Header />
+      
       <section id='hero' className='snap-center'>
         <Hero />
+      </section>
+      <section id='about' className='snap-center'>
+        <About />
       </section>
       
     </div>
