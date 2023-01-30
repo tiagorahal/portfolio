@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 type Props = {}
 
-function BackgroundCircles({}: Props) {
+export default function BackgroundCircles({}: Props) {
   return (
     <motion.div
       className='relative flex justify-center items-center'
@@ -19,13 +19,11 @@ function BackgroundCircles({}: Props) {
         duration: 2.5
       }}
     >
-      <div className='rounded-full border border-[#333333] h-[200px] w-[200px] absolute mt-52 animate-ping' />
-      <div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52' />
-      <div className='rounded-full border border-[#333333] h-[500px] w-[500px] absolute mt-52' />
-      <div className='rounded-full border border-[#F7AB0A] h-[650px] w-[650px] absolute mt-52 animate-pulse opacity-20' />
+      <div className='rounded-full border border-[#333333] h-[200px] w-[200px] absolute mt-64 animate-ping' />
+      <div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-64' />
+      <div className='rounded-full border border-[#333333] h-[500px] w-[500px] absolute mt-64' />
+      <div className='rounded-full border border-[#F7AB0A] h-[650px] w-[650px] absolute mt-64 animate-pulse opacity-20' />
       <div />
     </motion.div>
   )
 }
-
-export default BackgroundCircles
