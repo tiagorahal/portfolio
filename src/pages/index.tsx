@@ -3,10 +3,8 @@ import Header from '@/components/header'
 import Hero from '@/components/hero'
 import About from '@/components/about'
 import Experience from '@/components/experience'
-import { Inter } from '@next/font/google'
 import Skills from '@/components/skills'
-
-const inter = Inter({ subsets: ['latin'] })
+import Projects from '@/components/projects'
 
 export default function Home() {
   return (
@@ -34,6 +32,10 @@ export default function Home() {
 
       <section id='skills' className='snap-start '>
         <Skills />
+      </section>
+
+      <section id='projects' className='snap-start '>
+        <Projects />
       </section>
       
     </div>
