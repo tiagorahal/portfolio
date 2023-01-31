@@ -39,7 +39,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section id='contact-me' className='snap-start '>
+      <section id='contact' className='snap-start '>
         <ContactMe />
       </section>
       
