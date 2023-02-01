@@ -36,7 +36,8 @@ export default function About({}: Props) {
           Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background
         </h4>
         <p className='text-sm'>
-        Well,  very similar heights. Maybe you should wear labels. lived for over 2000 years and not all of them have been good. Clara, m not your boyfriend. I never said it was your mistake. s all right up to the eyebrows. Then it goes haywire. I t know. But  probably blame the English. Please just... just see me. Old ladies die all the time.s practically in the job description. m Scottish. I can complain about things now. I can really complain about things now. Are you taller? Why? Do you have to reach a high shelf?
+        My name is Tiago Rahal and I am a full-stack developer. As my partners and teammates that worked with me on projects like EasyB2B web application, can tell, I am extremely helpful, I like to mediate conflicts and I get along with others easily, three characteristics that make me good when it comes to working in a team.
+        I have experience in giving and receiving constant code reviews and have done several real-life projects.
         </p>
       </div>
     </motion.div>
