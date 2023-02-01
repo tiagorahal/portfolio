@@ -10,7 +10,7 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, The name's Tiago Rahal",
-      "Dude-who-loves-videogames.tsx",
+      "The-who-loves-coffee.tsx",
       "<ButLovesToCodeMore />"
     ],
     loop: true,
@@ -43,6 +43,9 @@ export default function Hero({}: Props) {
           </Link>
           <Link href="#projects">
             <button className='heroButton'>Projects</button>
+          </Link>
+          <Link href="#contact">
+            <button className='heroButton'>Contact</button>
           </Link>
         </div>
       </div>

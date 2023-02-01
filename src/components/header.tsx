@@ -24,17 +24,14 @@ export default function Header({}: Props) {
         }}
       >
         <SocialIcon
-          url='https://www.youtube.com'
+          url='https://github.com/tiagorahal'
+          target='_blank'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
-          url='https://www.youtube.com'
-          fgColor='gray'
-          bgColor='transparent'
-        />
-        <SocialIcon
-          url='https://www.youtube.com'
+          url='https://www.linkedin.com/in/tiagorahal/'
+          target='_blank'
           fgColor='gray'
           bgColor='transparent'
         />
