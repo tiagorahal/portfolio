@@ -6,6 +6,8 @@ import Experience from '@/components/experience'
 import Skills from '@/components/skills'
 import Projects from '@/components/projects'
 import ContactMe from '@/components/contactMe'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
@@ -42,6 +44,18 @@ export default function Home() {
       <section id='contact' className='snap-start '>
         <ContactMe />
       </section>
+
+      <Link href="#hero">
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <motion.img
+              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+              src='https://avatars.githubusercontent.com/u/77216006?v=4'
+              alt='Footer icon'
+            />
+          </div>
+        </footer>
+      </Link>
       
     </div>
   )
