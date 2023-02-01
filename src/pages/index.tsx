@@ -45,18 +45,17 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <Link href="#hero">
-        <footer className='sticky bottom-5 w-full cursor-pointer'>
-          <div className='flex items-center justify-center'>
-            <motion.img
-              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-              src='https://avatars.githubusercontent.com/u/77216006?v=4'
-              alt='Footer icon'
-            />
-          </div>
-        </footer>
-      </Link>
-      
+      <footer className='sticky bottom-5 w-full'>
+        <div className='flex items-center justify-center'>
+        <Link href="#hero">
+          <motion.img
+            className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+            src='https://avatars.githubusercontent.com/u/77216006?v=4'
+            alt='Footer icon'
+          />
+        </Link>
+        </div>
+      </footer>
     </div>
   )
 }
