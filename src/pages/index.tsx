@@ -37,9 +37,10 @@ export default function Home() {
         <Skills />
       </section>
 
-      <section id='projects' className='snap-start '>
+      {/* Wait 3 good projects */}
+      {/* <section id='projects' className='snap-start '>
         <Projects />
-      </section>
+      </section> */}
 
       <section id='contact' className='snap-start '>
         <ContactMe />
