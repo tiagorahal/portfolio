@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import About from '@/components/about'
 import Experience from '@/components/experience'
 import Skills from '@/components/skills'
-import Projects from '@/components/projects'
+// import Projects from '@/components/projects'
 import ContactMe from '@/components/contactMe'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
