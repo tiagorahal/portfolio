@@ -435,7 +435,7 @@ export default function Experience({}: Props) {
               alt='Skill icon'
             />
           </div>
-          <p className='uppercase py-1 text-gray-300'>STARTED 12/2018 - ENDED 12/2019</p>
+          <p className='uppercase py-1 text-gray-300'>STARTED 7/2018 - ENDED 12/2019</p>
           
           <ul className='list-disc space-y-3 ml-5 text-lg'>
             <li>Maintaining the internal system used by the public school students.</li>
